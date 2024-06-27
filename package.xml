@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+@file package.xml
+@brief Serial to ROS
+@author Raul Tapia (raultapia.com)
+@copyright The Unlicense
+@see https://github.com/raultapia/serial2ros
+-->
+<package format="2">
+  <name>serial2ros</name>
+  <version>1.0.0</version>
+  <description>Serial to ROS</description>
+  <maintainer email="raultapia@us.es">Raul Tapia</maintainer>
+  <license>The Unlicense</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>serial</depend>
+</package>
